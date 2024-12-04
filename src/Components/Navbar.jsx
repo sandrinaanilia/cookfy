@@ -33,7 +33,7 @@ const Navbar = () => {
             { path: "/resep", label: "Resep" },
             { path: "/produk", label: "Produk" },
             { path: "/komunitas", label: "Komunitas" },
-            { path: "/tentang", label: "Tentang" },
+            { path: "/about", label: "About" },
           ].map((item) => (
             <li key={item.path}>
               <button

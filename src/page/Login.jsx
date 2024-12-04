@@ -39,7 +39,7 @@ const Login = () => {
               <input
                 type="email"
                 id="email"
-                placeholder="Masukkan email anda"
+                placeholder="Ma kan email anda"
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300"
               />
             </div>
