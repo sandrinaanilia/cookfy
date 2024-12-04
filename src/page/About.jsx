@@ -1,8 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
-
-// Import gambar anggota tim
 import sandrina from "../assets/img/sandrina.jpg";
 import netania from "../assets/img/netania.jpg";
 import azvin from "../assets/img/aspin.jpg";

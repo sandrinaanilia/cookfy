@@ -2,19 +2,29 @@ import React from "react";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 import RecipeCard from "../Components/Icon";
+import BuburAyam from "../assets/img/buburayam.jpg";
+import Pie from "../assets/img/pie.jpg";
+
+import PecelSayur from "../assets/img/pecelsayur.jpg";
+import Bakso from "../assets/img/bakso.jpg";
+import RoycoAyam from "../assets/img/roycoayam.jpg";
+import KecapBango from "../assets/img/kecapbango.jpg";
+import RacikSayurLodeh from "../assets/img/raciksayurlodeh.jpg";
+import Garam from "../assets/img/garam.jpg";
+
 
 
 const Beranda = () => {
   const recipes = [
     {
-      image: "./src/assets/img/buburayam.jpg",
+      image: BuburAyam,
       title: "Bubur Ayam",
       time: "50 min",
       rating: "4.5",
       link: '/resepbuburayam',
     },
     {
-      image: "./src/assets/img/pie.jpg",
+      image: Pie,
       title: "Pie",
       time: "50 min",
       rating: "4.5",
@@ -22,7 +32,7 @@ const Beranda = () => {
 
     },
     {
-      image: "./src/assets/img/pecelsayur.jpg",
+      image: PecelSayur,
       title: "Pecel Sayur",
       time: "50 min",
       rating: "4.5",
@@ -30,7 +40,7 @@ const Beranda = () => {
 
     },
     {
-      image: "./src/assets/img/bakso.jpg",
+      image: Bakso,
       title: "Bakso",
       time: "50 min",
       rating: "4.5",
@@ -41,7 +51,7 @@ const Beranda = () => {
 
   const recommendations = [
     {
-      image: "./src/assets/img/buburayam.jpg",
+      image: BuburAyam,
       title: "Bubur Ayam",
       time: "50 min",
       rating: "4.5",
@@ -49,7 +59,7 @@ const Beranda = () => {
 
     },
     {
-      image: "./src/assets/img/pie.jpg",
+      image: Pie,
       title: "Pie",
       time: "50 min",
       rating: "4.5",
@@ -57,7 +67,7 @@ const Beranda = () => {
 
     },
     {
-      image: "./src/assets/img/pecelsayur.jpg",
+      image: PecelSayur,
       title: "Pecel Sayur",
       time: "50 min",
       rating: "4.5",
@@ -65,7 +75,7 @@ const Beranda = () => {
 
     },
     {
-      image: "./src/assets/img/bakso.jpg",
+      image: Bakso,
       title: "Bakso",
       time: "50 min",
       rating: "4.5",
@@ -76,31 +86,27 @@ const Beranda = () => {
 
   const products = [
     {
-      image: "./src/assets/img/roycoayam.jpg",
+      image: RoycoAyam,
       title: "Royco Ayam",
       rating: "4.5",
-      link: '/resepbakso',
 
     },
     {
-      image: "./src/assets/img/kecapbango.jpg",
+      image: KecapBango,
       title: "Kecap Bango",
       rating: "4.6",
-      link: '/resepbakso',
 
     },
     {
-      image: "./src/assets/img/raciksayurlodeh.jpg",
+      image: RacikSayurLodeh,
       title: "Racik Sayur Lodeh",
       rating: "4.8",
-      link: '/resepbakso',
 
     },
     {
-      image: "./src/assets/img/garam.jpg",
+      image: Garam,
       title: "Garam Masak",
       rating: "4.7",
-      link: '/resepbakso',
 
     },
   ];
