@@ -4,7 +4,6 @@ import Footer from "../Components/Footer.jsx";
 import RecipeCard from "../Components/Icon";
 import BuburAyam from "../assets/img/buburayam.jpg";
 import Pie from "../assets/img/pie.jpg";
-
 import PecelSayur from "../assets/img/pecelsayur.jpg";
 import Bakso from "../assets/img/bakso.jpg";
 import RoycoAyam from "../assets/img/roycoayam.jpg";
